@@ -1,0 +1,88 @@
+<!-- Technology Section -->
+<section id="technology" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-label">Under The Hood</div>
+            <h2 class="section-title">Technology &amp; Security</h2>
+            <p class="section-desc">Built with industry-standard cryptography and secure key derivation</p>
+        </div>
+        <div class="tech-grid">
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">🔑</div>
+                    <h3>Key Derivation</h3>
+                </div>
+                <p>MassaPay uses hierarchical deterministic (HD) wallets following BIP-32/BIP-39/BIP-44 standards for key generation and management.</p>
+                <ul class="tech-list">
+                    <li>24-word mnemonic phrase (BIP-39)</li>
+                    <li>HD derivation path: m/44'/632'/0'/0'</li>
+                    <li>Coin type 632 for Massa blockchain</li>
+                    <li>Hardened derivation for enhanced security</li>
+                </ul>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">📐</div>
+                    <h3>Elliptic Curve</h3>
+                </div>
+                <p>Massa blockchain uses the secp256k1 elliptic curve, the same curve used by Bitcoin and Ethereum, ensuring battle-tested cryptography.</p>
+                <ul class="tech-list">
+                    <li>secp256k1 curve (256-bit)</li>
+                    <li>ECDSA signatures</li>
+                    <li>Keccak-256 for address derivation</li>
+                    <li>Base58Check address encoding</li>
+                </ul>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">🔒</div>
+                    <h3>Local Security</h3>
+                </div>
+                <p>All sensitive data is encrypted and stored locally on your device using Android's security framework.</p>
+                <ul class="tech-list">
+                    <li>Android Keystore for key storage</li>
+                    <li>AES-256 encryption at rest</li>
+                    <li>Biometric authentication support</li>
+                    <li>No cloud sync or remote storage</li>
+                </ul>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">🌐</div>
+                    <h3>Network &amp; RPC</h3>
+                </div>
+                <p>Direct communication with Massa blockchain nodes via JSON-RPC for all operations.</p>
+                <ul class="tech-list">
+                    <li>Official Massa mainnet/buildnet nodes</li>
+                    <li>Configurable custom RPC endpoints</li>
+                    <li>Automatic retry with failover</li>
+                    <li>No third-party API dependencies</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Compatibility -->
+        <div class="compat-grid">
+            <div class="compat-card compatible">
+                <h3><span class="icon-yes">✓</span> Compatible With</h3>
+                <ul class="compat-list">
+                    <li>Massa Station wallet (import/export)</li>
+                    <li>Bearby browser extension</li>
+                    <li>Any wallet using BIP-39 mnemonics</li>
+                    <li>Massa blockchain mainnet &amp; buildnet</li>
+                    <li>MRC-20 tokens (fungible)</li>
+                    <li>MRC-721 tokens (NFTs)</li>
+                </ul>
+            </div>
+            <div class="compat-card incompatible">
+                <h3><span class="icon-no">✗</span> Not Compatible With</h3>
+                <ul class="compat-list">
+                    <li>Ethereum/EVM wallets (different address format)</li>
+                    <li>Ledger hardware wallets (no Massa app yet)</li>
+                    <li>WalletConnect protocol (not supported on Massa)</li>
+                    <li>Non-standard derivation paths</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
