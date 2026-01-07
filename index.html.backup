@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <title>MassaConnect - Massa Blockchain Wallet</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2â€¢family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2•family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
@@ -22,7 +22,6 @@
             <ul class="navbar-menu">
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#staking-agent">Staking Agent</a></li>
                 <li><a href="#changelog">Changelog</a></li>
                 <li><a href="#technology">Technology</a></li>
                 <li><a href="#mctoken" style="color: #ffd700 !important; font-weight: 600;">$MC</a></li>
@@ -43,7 +42,7 @@
                         <span class="hero-badge-icon">
                             <svg fill="white" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         </span>
-                        Version 1.4.0 Released
+                        Version 1.3.0 Released
                     </div>
                     <h1>Your keys.<br>Your crypto.<br><span>Your freedom.</span></h1>
                     <p class="hero-desc">The complete self-custodial wallet for Massa blockchain. Swap tokens, stake rolls, and take full control of your digital assets.</p>
@@ -83,197 +82,46 @@
         <div class="container">
             <div class="section-header">
                 <div class="section-label">Latest Updates</div>
-                <h2 class="section-title">What's New in v1.4.0</h2>
-                <p class="section-desc">Balance privacy toggle, desktop staking agent, persistent connection, auto-reconnect</p>
+                <h2 class="section-title">What's New in v1.3.0</h2>
+                <p class="section-desc">App rebrand, $MC token integration, S1 key import, and visual improvements</p>
             </div>
             <div class="new-grid">
                 <div class="new-card">
-                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/><line x1="1" y1="1" x2="23" y2="23"/></svg></div>
+                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
                     <div>
                         <span class="new-tag">New</span>
-                        <h3>Balance Privacy Toggle</h3>
-                        <p>Hide your balance with a single tap - eye icon next to total balance</p>
+                        <h3>$MC Token Integration</h3>
+                        <p>Native MassaConnect token integrated in swap with DUSA</p>
                     </div>
                 </div>
                 <div class="new-card">
-                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div>
                     <div>
                         <span class="new-tag">New</span>
-                        <h3>Desktop Staking Agent</h3>
-                        <p>Monitor staking from your computer with Massa Assisted Staking Agent</p>
+                        <h3>S1 Key Import</h3>
+                        <p>New hero balance card with gradient design and quick actions</p>
                     </div>
                 </div>
                 <div class="new-card">
-                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg></div>
+                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
                     <div>
                         <span class="new-tag">Enhanced</span>
-                        <h3>Auto-Reconnect</h3>
-                        <p>Persistent connection with automatic reconnect after 5 seconds</p>
+                        <h3>NFT Discovery</h3>
+                        <p>Faster scanning with parallel queries and smart batching</p>
                     </div>
                 </div>
                 <div class="new-card">
-                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+                    <div class="new-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.7 10.3a2.41 2.41 0 000 3.41l7.59 7.59a2.41 2.41 0 003.41 0l7.59-7.59a2.41 2.41 0 000-3.41l-7.59-7.59a2.41 2.41 0 00-3.41 0z"/></svg></div>
                     <div>
-                        <span class="new-tag">Enhanced</span>
-                        <h3>Periodic Refresh</h3>
-                        <p>Staking info updates every 15 seconds automatically</p>
+                        <span class="new-tag">Update</span>
+                        <h3>Visual Consistency</h3>
+                        <p>Unified design language across all screens</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     </div><!-- END HOME SECTION -->
-
-    <div id="staking-agent" class="content-section">
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-label">Desktop Companion</div>
-                <h2 class="section-title">Massa Assisted Staking Agent</h2>
-                <p class="section-desc">Monitor and control your MassaConnect staking from your desktop computer</p>
-            </div>
-
-            <!-- Agent Intro -->
-            <div class="feature-card" style="margin-bottom: 48px; text-align: center;">
-                <div class="tech-icon" style="margin: 0 auto 24px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-                        <line x1="8" y1="21" x2="16" y2="21"/>
-                        <line x1="12" y1="17" x2="12" y2="21"/>
-                    </svg>
-                </div>
-                <h3 style="font-size: 1.5rem; margin-bottom: 16px;">Remote Staking Dashboard</h3>
-                <p style="font-size: 1.05rem; max-width: 700px; margin: 0 auto;">
-                    Connect your MassaConnect mobile wallet to your desktop and monitor staking rewards, 
-                    roll balances, and node statistics in real-time without touching your phone.
-                </p>
-            </div>
-
-            <!-- Features Grid -->
-            <div class="features-grid" style="margin-bottom: 48px;">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h3>Secure QR Pairing</h3>
-                    <p>Connect your mobile wallet securely via QR code. End-to-end encrypted WebSocket connection.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
-                        </svg>
-                    </div>
-                    <h3>Real-Time Monitoring</h3>
-                    <p>Watch your staking balance, active rolls, and MAS price updates refresh every 15 seconds.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"/>
-                            <polyline points="12 6 12 12 16 14"/>
-                        </svg>
-                    </div>
-                    <h3>Node Statistics</h3>
-                    <p>View Massa network stats including blocks per second, active stakers, and total rolls.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
-                            <circle cx="9" cy="7" r="4"/>
-                            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
-                        </svg>
-                    </div>
-                    <h3>Multi-Platform</h3>
-                    <p>Available for Windows, macOS, and Linux. One app, all platforms.</p>
-                </div>
-            </div>
-
-            <!-- How It Works -->
-            <div class="new-grid" style="margin-bottom: 48px;">
-                <div class="new-card">
-                    <div class="new-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
-                            <polyline points="9 22 9 12 15 12 15 22"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <span class="new-tag" style="background: #374151;">Step 1</span>
-                        <h3>Download Desktop App</h3>
-                        <p>Install Massa Assisted Staking Agent on your Windows, Mac, or Linux computer</p>
-                    </div>
-                </div>
-
-                <div class="new-card">
-                    <div class="new-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
-                            <line x1="12" y1="18" x2="12" y2="18"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <span class="new-tag" style="background: #374151;">Step 2</span>
-                        <h3>Scan QR Code</h3>
-                        <p>Open MassaConnect on your phone, go to Settings → Agent Bridge and scan the QR</p>
-                    </div>
-                </div>
-
-                <div class="new-card">
-                    <div class="new-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <span class="new-tag" style="background: #10b981;">Step 3</span>
-                        <h3>Monitor Staking</h3>
-                        <p>Watch your rewards grow in real-time on your desktop while your phone stays locked</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Download Buttons -->
-            <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 32px;">
-                <a href="https://github.com/massaconnect/massa-assisted-staking-agent/releases/latest" class="btn btn-primary">
-                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                    </svg>
-                    Download for Desktop
-                </a>
-                <a href="https://github.com/massaconnect/massa-assisted-staking-agent" class="btn btn-secondary">
-                    View GitHub
-                </a>
-            </div>
-
-            <!-- Screenshots -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
-                <div class="feature-card" style="padding: 0; overflow: hidden;">
-                    <img src="https://raw.githubusercontent.com/massaconnect/massa-assisted-staking-agent/main/screenshots/2.png" alt="Connected Dashboard" style="width: 100%; height: auto; display: block;">
-                    <div style="padding: 20px;">
-                        <h4 style="margin: 0 0 8px 0; color: white;">Real-Time Dashboard</h4>
-                        <p style="margin: 0; font-size: 0.9rem;">Monitor balance, rolls, and network stats</p>
-                    </div>
-                </div>
-
-                <div class="feature-card" style="padding: 0; overflow: hidden;">
-                    <img src="https://raw.githubusercontent.com/massaconnect/massa-assisted-staking-agent/main/screenshots/1.png" alt="QR Pairing" style="width: 100%; height: auto; display: block;">
-                    <div style="padding: 20px;">
-                        <h4 style="margin: 0 0 8px 0; color: white;">Secure Pairing</h4>
-                        <p style="margin: 0; font-size: 0.9rem;">Connect with QR code in seconds</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div><!-- END STAKING AGENT SECTION -->
-
 
     <!-- CHANGELOG SECTION -->
     <div id="changelog" class="content-section">
@@ -285,100 +133,25 @@
                 <p class="section-desc">Track all updates, fixes, and new features</p>
             </div>
                         <div class="changelog-container">
-                <!-- v1.4.0 -->
-                <div class="changelog-version">
-                    <div class="changelog-header">
-                        <h3>v1.4.0</h3>
-                        <span class="changelog-date">January 2026</span>
-                        
-                    </div>
-                    <div class="changelog-content">
-                        <div class="changelog-category">
-                            <h4>New Features</h4>
-                            <ul>
-                                <li><strong>Balance Privacy Toggle:</strong> Hide/show balance with eye icon next to Total Balance</li>
-                                <li><strong>Desktop Staking Agent:</strong> Remote monitoring via Massa Assisted Staking Agent</li>
-                                <li><strong>Auto-Reconnect:</strong> Automatic WebSocket reconnection after 5 seconds</li>
-                                <li><strong>Periodic Staking Refresh:</strong> Updates every 15 seconds automatically</li>
-                            </ul>
-                        </div>
-                        <div class="changelog-category">
-                            <h4>Improvements</h4>
-                            <ul>
-                                <li>Persistent WebSocket connection (zero-timeout configuration)</li>
-                                <li>Disabled server-side ping to prevent timeout disconnects</li>
-                                <li>Improved connection stability for Agent Bridge</li>
-                                <li>Balance state preserved during session</li>
-                            </ul>
-                        </div>
-                        <div class="changelog-category">
-                            <h4>Technical</h4>
-                            <ul>
-                                <li>versionCode: 8</li>
-                                <li>versionName: 1.4.0</li>
-                                <li>WebSocket: pingPeriod = 0, timeout = 0</li>
-                                <li>RECONNECT_DELAY_MS = 5000</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- v1.4.0 -->
-                <div class="changelog-version">
-                    <div class="changelog-header">
-                        <h3>v1.4.0</h3>
-                        <span class="changelog-date">January 2026</span>
-                        ]$2                    </div>
-                    <div class="changelog-content">
-                        <div class="changelog-category">
-                            <h4>✨ New Features</h4>
-                            <ul>
-                                <li><strong>Balance Privacy Toggle:</strong> Hide/show balance with eye icon next to "Total Balance"</li>
-                                <li><strong>Desktop Staking Agent:</strong> Remote monitoring via Massa Assisted Staking Agent</li>
-                                <li><strong>Auto-Reconnect:</strong> Automatic WebSocket reconnection after 5 seconds</li>
-                                <li><strong>Periodic Staking Refresh:</strong> Updates every 15 seconds automatically</li>
-                            </ul>
-                        </div>
-                        <div class="changelog-category">
-                            <h4>🔧 Improvements</h4>
-                            <ul>
-                                <li>Persistent WebSocket connection (zero-timeout configuration)</li>
-                                <li>Disabled server-side ping to prevent timeout disconnects</li>
-                                <li>Improved connection stability for Agent Bridge</li>
-                                <li>Balance state preserved during session</li>
-                            </ul>
-                        </div>
-                        <div class="changelog-category">
-                            <h4>⚙️ Technical</h4>
-                            <ul>
-                                <li>versionCode: 8</li>
-                                <li>versionName: 1.4.0</li>
-                                <li>WebSocket: pingPeriod = 0, timeout = 0</li>
-                                <li>RECONNECT_DELAY_MS = 5000</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- v1.3.0 -->
                 <div class="changelog-version">
                     <div class="changelog-header">
                         <h3>v1.3.0</h3>
                         <span class="changelog-date">December 2024</span>
-                        ]$2                    </div>
+                        <span class="changelog-tag tag-latest">Latest</span>
+                    </div>
                     <div class="changelog-content">
                         <div class="changelog-category">
-                            <h4>âœ¨ New Features</h4>
+                            <h4>✨ New Features</h4>
                             <ul>
-                                <li><strong>App Rebrand:</strong> MassaPay â†’ MassaConnect</li>
+                                <li><strong>App Rebrand:</strong> MassaPay → MassaConnect</li>
                                 <li><strong>$MC Token:</strong> Native token integrated in swap</li>
                                 <li><strong>S1 Key Import:</strong> Import S1 private keys from within the app</li>
                                 <li><strong>DUSA Integration:</strong> $MC proposed as default swap pair</li>
                             </ul>
                         </div>
                         <div class="changelog-category">
-                            <h4>âœ¨ UI Improvements</h4>
+                            <h4>✨ UI Improvements</h4>
                             <ul>
                                 <li>Unified visual styles across all screens</li>
                                 <li>Consistent icon styling (black/white containers)</li>
@@ -387,7 +160,7 @@
                             </ul>
                         </div>
                         <div class="changelog-category">
-                            <h4>âš™ï¸ Technical</h4>
+                            <h4>⚙️ Technical</h4>
                             <ul>
                                 <li>versionCode: 7</li>
                                 <li>versionName: 1.3.0</li>
@@ -404,7 +177,7 @@
                     </div>
                     <div class="changelog-content">
                         <div class="changelog-category">
-                            <h4>âœ¨ Visual Updates</h4>
+                            <h4>✨ Visual Updates</h4>
                             <ul>
                                 <li>Complete visual redesign with consistent black icon containers</li>
                                 <li>Redesigned LockScreen with elegant animations and responsive layout</li>
@@ -416,7 +189,7 @@
                             </ul>
                         </div>
                         <div class="changelog-category">
-                            <h4>âœ¨ Compatibility</h4>
+                            <h4>✨ Compatibility</h4>
                             <ul>
                                 <li>Support for all device architectures (ARM + x86 emulators)</li>
                                 <li>Unified signing for seamless updates from any version</li>
@@ -426,7 +199,7 @@
                             </ul>
                         </div>
                         <div class="changelog-category">
-                            <h4>âœ¨ Bug Fixes</h4>
+                            <h4>✨ Bug Fixes</h4>
                             <ul>
                                 <li>Fixed theme detection using luminance calculation</li>
                                 <li>Improved card elevation consistency across light/dark themes</li>
@@ -444,18 +217,18 @@
                     </div>
                     <div class="changelog-content">
                         <div class="changelog-category">
-                            <h4>â€¢ New Features</h4>
+                            <h4>• New Features</h4>
                             <ul>
-                                <li>âœ¨ Staking - Buy and sell rolls to participate in Massa network consensus</li>
-                                <li>âœ¨ Token Swap - Multi-path routing via DUSA DEX for optimal rates</li>
-                                <li>âœ¨ Portfolio - View all token balances with real-time USD values</li>
-                                <li>âœ¨ DApp Browser - Integrated browser with Massa provider injection</li>
-                                <li>âœ¨ WalletConnect - Connect to external dApps</li>
-                                <li>âœ¨ Multi-Account - Create and manage multiple accounts</li>
+                                <li>✨ Staking - Buy and sell rolls to participate in Massa network consensus</li>
+                                <li>✨ Token Swap - Multi-path routing via DUSA DEX for optimal rates</li>
+                                <li>✨ Portfolio - View all token balances with real-time USD values</li>
+                                <li>✨ DApp Browser - Integrated browser with Massa provider injection</li>
+                                <li>✨ WalletConnect - Connect to external dApps</li>
+                                <li>✨ Multi-Account - Create and manage multiple accounts</li>
                             </ul>
                         </div>
                         <div class="changelog-category">
-                            <h4>âœ¨ Improvements</h4>
+                            <h4>✨ Improvements</h4>
                             <ul>
                                 <li>Dashboard shows total portfolio value (all tokens)</li>
                                 <li>Fixed MAS/DAI.e routing through USDC.e</li>
@@ -464,7 +237,7 @@
                             </ul>
                         </div>
                         <div class="changelog-category">
-                            <h4>âœ¨ Bug Fixes</h4>
+                            <h4>✨ Bug Fixes</h4>
                             <ul>
                                 <li>Fixed staking balance display</li>
                                 <li>Fixed roll count calculation</li>
@@ -483,17 +256,17 @@
                     </div>
                     <div class="changelog-content">
                         <div class="changelog-category">
-                            <h4>âœ¨ Initial Release</h4>
+                            <h4>✨ Initial Release</h4>
                             <ul>
-                                <li>âœ¨ Self-custodial wallet - Your keys, your crypto</li>
-                                <li>âœ¨ AES-256 encryption for secure key storage</li>
-                                <li>âœ¨ Biometric authentication (fingerprint/face)</li>
-                                <li>âœ¨ No data collection - Complete privacy</li>
-                                <li>âœ¨ Send/Receive MAS tokens</li>
-                                <li>âœ¨ Real-time price tracking</li>
-                                <li>âœ¨ QR code support for easy transfers</li>
-                                <li>âœ¨ MRC-20 token support</li>
-                                <li>âœ¨â€¢ NFT gallery for MRC-721 tokens</li>
+                                <li>✨ Self-custodial wallet - Your keys, your crypto</li>
+                                <li>✨ AES-256 encryption for secure key storage</li>
+                                <li>✨ Biometric authentication (fingerprint/face)</li>
+                                <li>✨ No data collection - Complete privacy</li>
+                                <li>✨ Send/Receive MAS tokens</li>
+                                <li>✨ Real-time price tracking</li>
+                                <li>✨ QR code support for easy transfers</li>
+                                <li>✨ MRC-20 token support</li>
+                                <li>✨• NFT gallery for MRC-721 tokens</li>
                             </ul>
                         </div>
                     </div>
@@ -624,7 +397,7 @@
                     </ul>
                 </div>
                 <div class="compat-card incompatible">
-                    <h3><span class="icon-no">âœ—</span> Not Compatible With</h3>
+                    <h3><span class="icon-no">✗</span> Not Compatible With</h3>
                     <ul class="compat-list">
                         <li>Ethereum/EVM wallets (different address format)</li>
                         <li>Ledger hardware wallets (no Massa app yet)</li>
@@ -648,61 +421,61 @@
             </div>
             <div class="faq-container">
                 <details class="faq-item">
-                    <summary>What is MassaConnectâ€¢</summary>
+                    <summary>What is MassaConnect•</summary>
                     <div class="faq-content">
                         MassaConnect is a self-custodial mobile wallet for the Massa blockchain. It allows you to securely store, send, receive, and swap MAS tokens and other assets on the Massa network. Your private keys are stored locally on your device and never shared with anyone.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>Is MassaConnect safe to useâ€¢</summary>
+                    <summary>Is MassaConnect safe to use•</summary>
                     <div class="faq-content">
                         Yes, MassaConnect is designed with security as a top priority. It's 100% open source (you can verify the code), uses industry-standard cryptography (secp256k1, AES-256), and stores all keys locally using Android Keystore. The app has been verified clean by VirusTotal (0/71 detections) and collects zero user data.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>Can I import my Massa Station walletâ€¢</summary>
+                    <summary>Can I import my Massa Station wallet•</summary>
                     <div class="faq-content">
                         Yes! MassaConnect is fully compatible with Massa Station and Bearby wallets. You can import your existing wallet using your 24-word recovery phrase. The derivation path <code>m/44'/632'/0'/0'</code> is the same across all Massa wallets.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>What tokens are supportedâ€¢</summary>
+                    <summary>What tokens are supported•</summary>
                     <div class="faq-content">
                         MassaConnect supports MAS (native token), all MRC-20 fungible tokens, and MRC-721 NFTs on the Massa blockchain. You can add custom tokens by entering the contract address, and the app will automatically fetch token details.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>How does staking workâ€¢</summary>
+                    <summary>How does staking work•</summary>
                     <div class="faq-content">
                         You can stake MAS by purchasing "rolls". Each roll costs 100 MAS. When you own rolls, you participate in block production and earn rewards. MassaConnect shows real-time APY estimates and allows you to buy/sell rolls directly from the app.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>Is my recovery phrase stored securelyâ€¢</summary>
+                    <summary>Is my recovery phrase stored securely•</summary>
                     <div class="faq-content">
                         Your recovery phrase is encrypted using AES-256 and stored in Android's secure enclave (Keystore). It never leaves your device and is never transmitted over the network. Make sure to write down your phrase and store it safely offline.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>Why can't I see my NFTsâ€¢</summary>
+                    <summary>Why can't I see my NFTs•</summary>
                     <div class="faq-content">
                         MassaConnect scans known NFT collections automatically. If your NFT is from a newer or unknown collection, you can manually add it using the "Add Collection" feature. Enter the smart contract address and the app will discover your NFTs.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>What's the derivation path usedâ€¢</summary>
+                    <summary>What's the derivation path used•</summary>
                     <div class="faq-content">
                         MassaConnect uses the standard Massa derivation path: <code>m/44'/632'/0'/0'</code> where 632 is the registered coin type for Massa. This ensures compatibility with other Massa wallets like Massa Station and Bearby.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>What if MassaConnect stops working or gets removedâ€¢</summary>
+                    <summary>What if MassaConnect stops working or gets removed•</summary>
                     <div class="faq-content">
                         <strong>Your funds are always safe!</strong> MassaConnect is just a window to the blockchain - your crypto lives on Massa, not in the app. If MassaConnect ever stops working, simply import your 24-word recovery phrase into <strong>Bearby</strong> (browser extension) or <strong>Massa Station</strong> (desktop wallet). We use the same derivation path <code>m/44'/632'/0'/0'</code>, so your seed will generate the exact same address. This is the power of self-custody: you're never locked into one app.
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary>Why does the dApps browser use Bearby instead of MassaConnectâ€¢</summary>
+                    <summary>Why does the dApps browser use Bearby instead of MassaConnect•</summary>
                     <div class="faq-content">
                         When you connect to dApps through MassaConnect's built-in browser, the connection uses the <strong>Bearby protocol</strong>. This is because most dApp frontends (like Dusa, NFT marketplaces, etc.) only have Bearby integration available as their wallet connection option - they haven't added MassaConnect as a native choice yet.
                         <br><br>
@@ -816,7 +589,7 @@
                     <h4 style="color: white; margin: 0 0 12px 0; font-size: 1rem;">How to Qualify:</h4>
                     <ul style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0; padding-left: 20px; line-height: 2;">
                         <li>Download MassaConnect Wallet</li>
-                        <li>Make your first swap MAS â†” MC on DUSA DEX</li>
+                        <li>Make your first swap MAS ↔ MC on DUSA DEX</li>
                         <li>Early adopters get bigger rewards!</li>
                     </ul>
                 </div>
@@ -842,7 +615,7 @@
                                 <div style="color: white; font-weight: 700; font-size: 0.95rem;">$MC Token Contract</div>
                                 <div style="color: rgba(255,255,255,0.5); font-size: 0.75rem;">MRC-20 Standard</div>
                             </div>
-                            <button onclick="navigator.clipboard.writeText('AS12XfRvGn4A8QZBmLSHsD2EBqpBVEsdF1CcbvJRTpqtXMYGhH6FH'); this.innerHTML='âœ“ Copied!'; setTimeout(()=>this.innerHTML='Copy', 2000)" style="margin-left: auto; padding: 8px 16px; background: #374151; border: none; border-radius: 8px; color: white; font-size: 0.8rem; cursor: pointer; font-weight: 600;">Copy</button>
+                            <button onclick="navigator.clipboard.writeText('AS12XfRvGn4A8QZBmLSHsD2EBqpBVEsdF1CcbvJRTpqtXMYGhH6FH'); this.innerHTML='✓ Copied!'; setTimeout(()=>this.innerHTML='Copy', 2000)" style="margin-left: auto; padding: 8px 16px; background: #374151; border: none; border-radius: 8px; color: white; font-size: 0.8rem; cursor: pointer; font-weight: 600;">Copy</button>
                         </div>
                         <code style="display: block; background: #0f172a; padding: 12px 16px; border-radius: 10px; color: rgba(255,255,255,0.8); font-size: 0.78rem; word-break: break-all; font-family: monospace;">AS12XfRvGn4A8QZBmLSHsD2EBqpBVEsdF1CcbvJRTpqtXMYGhH6FH</code>
                     </div>
@@ -857,7 +630,7 @@
                                 <div style="color: white; font-weight: 700; font-size: 0.95rem;">DUSA Liquidity Pool</div>
                                 <div style="color: rgba(255,255,255,0.5); font-size: 0.75rem;">MC/WMAS Pair - V2</div>
                             </div>
-                            <button onclick="navigator.clipboard.writeText('AS1tnZc9iWKrE77on7sVqZ5FqaHw81jVXjLChVT8vnmyxBKRRE93'); this.innerHTML='âœ“ Copied!'; setTimeout(()=>this.innerHTML='Copy', 2000)" style="margin-left: auto; padding: 8px 16px; background: #374151; border: none; border-radius: 8px; color: white; font-size: 0.8rem; cursor: pointer; font-weight: 600;">Copy</button>
+                            <button onclick="navigator.clipboard.writeText('AS1tnZc9iWKrE77on7sVqZ5FqaHw81jVXjLChVT8vnmyxBKRRE93'); this.innerHTML='✓ Copied!'; setTimeout(()=>this.innerHTML='Copy', 2000)" style="margin-left: auto; padding: 8px 16px; background: #374151; border: none; border-radius: 8px; color: white; font-size: 0.8rem; cursor: pointer; font-weight: 600;">Copy</button>
                         </div>
                         <code style="display: block; background: #0f172a; padding: 12px 16px; border-radius: 10px; color: rgba(255,255,255,0.8); font-size: 0.78rem; word-break: break-all; font-family: monospace;">AS1tnZc9iWKrE77on7sVqZ5FqaHw81jVXjLChVT8vnmyxBKRRE93</code>
                     </div>
@@ -982,7 +755,7 @@
                         Copy
                     </button>
                 </div>
-                <p class="donation-note">Massa Mainnet Address â€¢ Thank you for your support!</p>
+                <p class="donation-note">Massa Mainnet Address • Thank you for your support!</p>
             </div>
         </div>
     </section>
@@ -1052,18 +825,6 @@
     <script src="src/scripts.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
